@@ -66,7 +66,7 @@ def fit_model_get_results(classifier, features, X_train, y_train, X_val, y_val):
     return model_results_dictionary
 
 
-def plot_feature_importances(classifier, title, features):
+def plot_feature_importances(model, title, features):
     
     """
     Plots feature importances
@@ -84,7 +84,7 @@ def plot_feature_importances(classifier, title, features):
 
     feature_importances_df = pd.DataFrame(
         {
-            "Feature Importance": classifier.feature_importances_,
+            "Feature Importance": model.feature_importances_,
             "Feature Name": [v for v in features],
         }
     )
