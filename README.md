@@ -32,19 +32,15 @@ Software to run an iPython Notebook is also required.
 
 #### 3. Files
 
-The link to the data is as follows: https://www.kaggle.com/code/agewerc/corporate-credit-rating-forecasting/input
-The following files will be used: corporate_rating.csv
+The link to the data is as follows: https://www.kaggle.com/code/agewerc/corporate-credit-rating-forecasting/input \
+The following files will be used: corporate_rating.csv \
+Exploratory data analysis is conducted in data/EDA.ipynb \
+Model training and evaluation is conducted in model/training.ipynb
+
 
 ---
 
 
-#### 4. Results
-
-The main findings of the analysis can be found in the following:
-
----
-
-
-#### 5. Licensing
+#### 4. Licensing
 
 This data was sourced from Kaggle under the following license: https://creativecommons.org/licenses/by/4.0/
